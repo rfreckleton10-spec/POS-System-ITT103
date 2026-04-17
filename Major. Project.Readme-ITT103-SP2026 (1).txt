@@ -8,7 +8,7 @@ Date Created: April 15, 2026
 
 Course: ITT103
 
-GitHub Public URL to Code: ---
+GitHub Public URL to Code: https://gifthub.comrfreckleton10-spec/POS-System-ITTO3
 
 PROGRAM TITLE: Simple POS (Point of Sale) System
 
