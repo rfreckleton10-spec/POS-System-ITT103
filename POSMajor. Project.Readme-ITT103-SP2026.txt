@@ -1,0 +1,86 @@
+Authors: - Nathan Hylton
+         - Addia Wilson
+         - Ronaldo Freckleton
+
+Date Created: April 15, 2026
+
+Course: ITT103
+
+GitHub Public URL to Code:https://github.com/nhylton10-source/POSMajor.Project.Group4.ITT103-SP2026.py/blob/main/POSMajorProject_Group4.py
+			  https://github.com/AddiaWilson/PT-MAJOR-PROJECT-/blob/main/POSMajorProject_Group4.py
+			  https://github.com/rfreckleton10-spec/POS-System-ITT103/blob/main/POSMajorProject_Group4%20(1).py
+
+PROGRAM TITLE: Simple POS (Point of Sale) System
+
+
+
+PURPOSE OF THE PROGRAM:
+This program is a Point of Sale (POS) System for a small business (Best Buy Retail Store), that sells groceries, beverages, and household items. It is a way of digitizing the process to reduce errors and to improve efficiency.
+
+It provides a user-friendly interface that allows users to:
+- View the available products (quantities and prices)
+- Add items to the cart
+- Remove items from the cart
+- View items in the cart 
+- Checkout and calculate total cost, tax, and discounts 
+- Accept payment
+- Print a receipt
+- The program will also update the stock levels automatically and show alerts when stock is low
+- The program includes basic input validation to prevent errors when users enter incorrect information (words instead of numbers and incorrect spelling of the items names).
+
+
+
+HOW TO RUN THE PROGRAM:
+
+Step 1. Install Python on your computer (if not already installed)
+Step 2. Save the program file as: POSMajorProject_Group4.py
+Step 3. Open a terminal 
+Step 4. Click on 'Run' to run the program using python
+Step 5. Follow the menu options shown on the screen
+
+
+
+
+MODIFICATIONS MADE TO CREATE THE PROGRAM/SCRIPT:
+
+The following were done during creation of the script:
+
+- Created a product list with prices
+- Added stock tracking system, which shows the availability of the items
+- Created shopping cart 
+- Added feature to display all products
+- Added low stock alert system (if item quantity is less than 5)
+- Added 'add item' function with stock validation
+- Added 'remove item' function with automatic stock update
+- Created 'view cart' function with subtotal calculation
+- Created checkout system with:
+	- Subtotal calculation
+	- 5% discount when total bill is above $5000
+        - 10% tax calculation
+	- Final total calculation
+- Added receipt printing after checkout
+- Created a simple menu for user interaction
+- Improved the readability of the receipt output through formatting 
+- Added basic input validation to prevent crashes and show messages when users enter invalid input instead of numbers
+
+
+
+ASSUMPTIONS:
+- Users will type the correct item names exactly as shown in the product list
+- Users will enter numbers correctly when asked for quantity or payment
+- Product prices do not change while the program is running
+- Stock is already set at the start of the program
+- No database is used to store data
+
+
+
+LIMITATIONS:
+- The program does not save data after it is closed (no storage or database)
+- There is no login or user security system
+- The program is text-based only 
+- Users must type item names correctly for them to work
+- The program only uses basic input validation 
+- The system is designed for small businesses use only and may not work well for large businesses
+
+
+
